@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css " />
+    <title>Namaste React</title>
+</head>
+
+<body>
+    <h1>Hello before root</h1>
+    <div id="root">
+        <h1>Hello World! (created directly through HTML)</h1>
+    </div>
+
+    <div id="react-root">
+        <h1>
+            Shirish was here.....!
+            Shirish was here.....!
+            Shirish was here.....!
+            Shirish was here.....!
+        </h1>
+    </div>
+
+    <div id="nested-react-root">
+        <h1>
+            Shirish was here.....!
+            Shirish was here.....!
+        </h1>
+    </div>
+    <h1>Hello after root</h1>
+
+
+    <!-- USING JavaScript -->
+    <!-- Creating new element and appending the same thing as above but using javascript -->
+    <script>
+        const heading = document.createElement("h1")
+        console.log("h1 tag created =>", heading);
+        heading.innerHTML = "Hello World! (created through JavaScript)"
+        const root = document.getElementById("root")
+        console.log("Root =>", root);
+        root.appendChild(heading)
+    </script>
+
+
+    <!-- USING React.js -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <!-- Commenting the below code because if we render any element using react, it will replace the existing elements inside the root -->
+    <!-- <script>
+    const reactHeading = React.createElement("h1", {}, "Hello World! (created through React.js)")
+    const reactRoot= ReactDOM.createRoot(document.getElementById("root"))
+    reactRoot.render(reactHeading)
+</script> -->
+    <script src="./App.js">
+
+    </script>
+</body>
+
+</html>
