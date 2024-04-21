@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom/client"
+
 const reactHeading = React.createElement("h1", {id: "heading", abc: "xyz"}, "Hello World! (created through React.js)")
 console.log("React.createElement() returns :=>", reactHeading);
 

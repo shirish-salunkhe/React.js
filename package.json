@@ -1,0 +1,31 @@
+{
+  "name": "react-hands-on",
+  "version": "1.0.0",
+  "description": "This is Hands-on React training!",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shirish-salunkhe/React.js.git"
+  },
+  "keywords": [],
+  "author": "Shirish Tanaji Salunkhe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shirish-salunkhe/React.js/issues"
+  },
+  "homepage": "https://github.com/shirish-salunkhe/React.js#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
