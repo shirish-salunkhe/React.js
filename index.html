@@ -9,13 +9,13 @@
 </head>
 
 <body>
-    <h1>Welcome to React! 🚀</h1>
-    <h1>Hello before root</h1>
+    <!-- <h1>Welcome to React! 🚀</h1>
+    <h1>Hello before root</h1> -->
     <div id="root">
-        <h1>Hello World! (created directly through HTML)</h1>
+        <h1>If there is a problem with your react rendering, you will see this message!</h1>
     </div>
 
-    <div id="react-root">
+    <!-- <div id="react-root">
         <h1>
             Shirish was here.....!
             Shirish was here.....!
@@ -30,19 +30,19 @@
             Shirish was here.....!
         </h1>
     </div>
-    <h1>Hello after root</h1>
+    <h1>Hello after root</h1> -->
 
 
     <!-- USING JavaScript -->
     <!-- Creating new element and appending the same thing as above but using javascript -->
-    <script>
+    <!-- <script>
         const heading = document.createElement("h1")
         console.log("h1 tag created =>", heading);
         heading.innerHTML = "Hello World! (created through JavaScript)"
         const root = document.getElementById("root")
         console.log("Root =>", root);
         root.appendChild(heading)
-    </script>
+    </script> -->
 
 
     <!-- USING React.js -->
@@ -55,7 +55,7 @@
     const reactRoot= ReactDOM.createRoot(document.getElementById("root"))
     reactRoot.render(reactHeading)
 </script> -->
-    <script type="module" src="./App.js">
+    <script type="module" src="./src/App.js">
 
     </script>
 </body>

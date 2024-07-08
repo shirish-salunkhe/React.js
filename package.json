@@ -2,8 +2,9 @@
   "name": "react-hands-on",
   "version": "1.0.0",
   "description": "This is Hands-on React training!",
-  "main": "App.js",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {

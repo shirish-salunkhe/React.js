@@ -1,3 +1,78 @@
 #heading {
     color: red;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+}
+
+.logo {
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.nav-items {
+    font-size: 32px;
+    padding-inline: 40px;
+}
+
+.nav-items > ul {
+    display: flex;
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+.nav-items > ul > li {
+    margin: 10px;
+    padding: 10px;
+}
+
+.search-bar {
+    padding: 1em;
+}
+
+.restaurants-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.restaurant-card {
+    width: 200px;
+    /* height: 400px; */
+    background-color: #ed9292;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.restaurant-card:hover {
+    border: 1px;
+    border-style: dashed;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.restaurant-logo {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 200px;
+}
+
+.star-rating {
+    background-color: green;
+    display: flex;
+}
+
+.rating-star {
+    width: 10px;
+}
+
+.top-rated-filter-btn {
+    margin: 10px;
+    cursor: pointer;
+}
